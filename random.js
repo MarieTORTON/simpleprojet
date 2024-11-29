@@ -4,7 +4,7 @@ function getRandomInt(max) {
 
 function generateRandom() {
     let max = document.getElementById('max').value;
-     let res = document.getElementById('result');
+     let res = document.getElementById('results');
     res.textContent = 'Result: ' + getRandomInt(max);
 }
 
